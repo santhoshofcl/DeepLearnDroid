@@ -23,9 +23,3 @@ Run the APP to create a Flask front end on port 8888 (or any port the app is poi
 ```
 python app.py
 ```
-
-```
-SCREENSHOT'S
-```
-
-![DeepLearnDroid - Google Chrome 16-03-2024 09_05_03 PM (3)](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/83784968-67b2-4882-b4df-085847619df8)
