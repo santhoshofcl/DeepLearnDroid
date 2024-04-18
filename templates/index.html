@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepLearnDroid</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <main class="main">
+                
+        <header>
+            <a href="#" class="logo">DLD</a>
+            <div class="menu-btn">
+            </div>
+            <div class="navigation">
+                <div class="navigation-items">
+                    <a href="/" style="--i:1;">Home</a>
+                    <a href="/chat" style="--i:2;" class="active">ChatBot</a>
+                    <a href="/quiz" style="--i:3;">Quiz</a>
+                    <a href="/contact" style="--i:4;">Contact</a>
+                    <a href="/about" style="--i:5;">About</a>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="chatbot-box">
+                    <h1>DeepLearnDroid</h1>
+                    <div class="quiz-header">
+                        <span>ChatBot</span>
+                    </div>   
+                    <div class="blank">
+                        <p id="response"></p>
+                    </div>
+                    <div class="quiz-footer">
+                        <input class="input-box" type="text" name="question" id="question"  placeholder="@Ex What Is The Python  ...">
+                        <button class="submit-btn" id="submit-button" >Search</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                </div>
+                <div class="result-box">
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                </div>
+            </section>
+        <section class="home">
+            <div class="home-content">
+                <h1>ChatBot</h1>
+                <p>
+                    Welcome to the future of intelligent interaction! Say hello to our Deep Learning Bot, a digital virtuoso powered by cutting-edge technology. This isn't just any bot; it's a knowledge maestro ready to assist, learn, and engage in a way that's as close to human-like conversation as you can get.
+                    
+                </p>
+                <button class="start-btn">Start Chat</button>
+            </div>
+        </section>
+        </div>
+    </main>
+    <div class="popup-info">
+        <h2>Bot Guide</h2>
+        <span class="info">1. Dive into a world of information by asking questions or seeking assistance on a variety of topics.</span>
+        <span class="info">2. Engage in conversation, and witness how ChatBot understands context to deliver more personalized responses over time.</span>
+        <span class="info">3. Explore the realms of deep learning technology by experimenting with different queries and scenarios.</span>
+        <span class="info">4. Let the Begin!</span>
+        <span class="info">Pro Tip: ChatBot is designed to evolve with your interactions, so the more you engage, the smarter it becomes.</span>
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Chat</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+    <script src="/static/jquery.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script>
+      jQuery(document).ready(function() {
+
+        $("#submit-button").click(function(e) {
+          e.preventDefault();
+
+
+          $.ajax({
+              type: "POST",
+              url: "/chatbot",
+              data: {
+                  question: $("#question").val()
+              },
+              success: function(result) {
+                $("#response").append("<br><br><h3>Me :</h3>&nbsp; "+$("#question").val()+ "<br><br> <h3>ChatBot :</h3><br> "+result.response);
+                $("#question").val("")
+              },
+              error: function(result) {
+                  alert('error');
+              }
+          });
+
+        });
+
+      });
+    </script>
+</body>
+</html>
