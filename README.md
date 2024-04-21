@@ -26,7 +26,7 @@ python app.py
 
 **SCREENSHOT'S:**
 
-**HOME PAGE:**
+**HOME PAGE :**
 
 ![IMG-01](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/f8289d3b-e6df-4ae4-9a48-dee3c88523bd)
 ![IMG-02](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/b809a1c4-d2db-42fb-84ec-5930528ff0eb)
@@ -37,7 +37,7 @@ python app.py
 ![IMG-06](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/bd7f6f34-1f13-48d7-9656-f4f0ca3efb1b)
 ![IMG-08](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/1f915743-6771-4ee4-bc7c-659a0d8c11eb)
 
-**CHATBOT PAGE:**
+**CHATBOT PAGE :**
 
 ![IMG-09](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/26739f80-ae69-4974-aa83-63eec82df8f7)
 ![IMG-10](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/9f61b2e4-e9d9-474a-9c2d-3764a4e5b129)
@@ -45,17 +45,17 @@ python app.py
 ![IMG-12](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/c50f8f84-9538-4dbb-9d08-8c9b79502f6d)
 ![IMG-13](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/5a0e4012-b17c-4dee-8245-920b13b245e4)
 
-**QUIZ PAGE:**
+**QUIZ PAGE :**
 
 ![IMG-14](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/ebf8647b-3937-4790-b116-e4dab1eb67a6)
 ![IMG-15](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/df5bc1d4-06a1-4b6a-ae1f-2a13ce966da7)
 ![IMG-16](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/e66f61fc-73be-47db-a678-5f2d631ea6a6)
 ![IMG-17](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/5bab7ef0-bfa3-4682-99bb-8f89ae561335)
 
-**CONTACT PAGE:**
+**CONTACT PAGE :**
 
 ![IMG-18](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/747a827f-46fd-4bff-8e05-7b3654c4268b)
 
-**ABOUT PAGE:**
+**ABOUT PAGE :**
 
 ![IMG-19](https://github.com/santhoshofcl/DeepLearnDroid-/assets/144583697/5f691040-6963-4b5a-ab09-7574fa485e4f)
