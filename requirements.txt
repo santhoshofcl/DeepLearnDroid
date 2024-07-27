@@ -1,0 +1,7 @@
+pip install nltk
+pip install numpy
+pip install keras
+pip install tensorflow
+pip install flask
+
+Run the chatbot.py file to create the model
